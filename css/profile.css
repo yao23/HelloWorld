@@ -1,0 +1,201 @@
+@import url('/helloworld/css/font-awesome.css');
+
+head,body{
+    width:100%
+    margin:0px;
+    padding:0px;
+    background: url(../img/bg1.jpg);
+}
+
+#container{
+    margin: 5% auto;
+    width: 80%;
+    max-width: 1200px;
+    height: 900px;   
+    position: relative;
+    border:2px solid #aaa;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+#logo {
+    padding: 3% 8%;
+    margin-top: -100px;
+}
+
+#breadcrumb {
+/*width: 20px;*/
+float: right;
+margin-right: 5%;
+margin-top: -7.5em;
+font-size: 1em;
+}
+
+ul#nav {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#nav li{
+    background: rgba(255, 255, 255, 0.064);
+    float: left;
+    padding: 0.3em 0.5em;
+    line-height: 1em;
+    /*border-bottom: 2px solid black;*/
+}
+
+ul#nav li a{
+    display: block;
+    padding: 5px 10px;
+    text-decoration: none;
+    color:  #544738;
+    border-bottom: 1px solid #ccc;
+}
+
+ul#nav li a:hover {
+    color: #7eb9be;
+}
+
+ul#nav li ul li {
+    float: left;
+    list-style-type: none;
+}
+
+ul#nav li ul{
+    float: right;
+    background-color: white;
+    padding:0;
+    margin-right: 0.5%;
+    position: absolute;
+    display: none;
+}
+
+ul#nav li:hover ul{
+    display: block;
+}
+
+
+  /*------------------------------icon bar ----------------------------*/
+#importbar {
+    margin-top: -4em;
+}
+
+ul#importicons{
+    margin: 0px;
+    float: right;
+    margin-right: 8%;
+}
+
+ul#importicons li {
+    display: inline;
+    float: left;
+    padding-left:1em;
+    /*margin: 5px;*/
+}
+
+ul li div{
+    display: none; 
+    background:rgba(255, 255, 255, 0.0512); 
+    /*opacity:.5; */
+    position:absolute;
+}
+
+
+  /*------------------------------data visualization ----------------------------*/
+#content {
+    width:100%;
+}
+
+#infoviz {
+    display: inline-block;
+    width:70%;
+    height: 600px;
+    /*float:left;*/
+    /*padding:12% 8%;*/
+    /*margin: 10% 5%;*/
+}
+
+#infoviz ul {
+    list-style-type: none;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 8%;
+}
+
+#hexagon {
+    /*border: 2px solid black;*/
+     border: 1px solid rgba(0,0,0,0.5);
+   border-radius: 10px 10px 2px 2px;
+   background: rgba(0,0,0,0.25);
+   box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+   -moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+
+    margin-left: 8%;
+}
+
+/*ul#allskills:before {
+    content: counter(mylist);
+}
+*/
+
+#allskills li:before {
+    content: "• ";
+    color: #ff6c00; /* or whatever color you prefer */
+}
+
+#allskills li{
+    list-style-type: none;
+    vertical-align: middle;
+    padding: 1% 2%;
+    border-bottom: 1px solid grey;
+    width: 50%;
+}
+
+
+#allskills {
+    display: inline-block;
+    float: right;
+    margin-top: 10%;
+    width:25%;
+    height: 555px;
+    border-left: 2px solid #aaa;
+    }
+
+#allskills div{
+     /*margin-left: 20%;*/
+     font-weight: bold;
+     /*margin-left: 5%;*/
+}
+
+#allskills div .i{
+    padding-right: 20px;
+    float: left;
+
+}
+
+/*#bargraph {
+    border: 2px solid black;
+    margin-right: 1%;
+}*/
+
+#clear{
+    clear: both;
+}
+  /*------------------------------footer ----------------------------*/
+footer {
+    width: 100%;
+    clear: both;
+    text-align: center;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    margin:0;
+    background-color: whitesmoke;
+    padding-bottom: 10px;
+    bottom: 0;
+    font-size: 0.8em;
+    line-height: 3em;
+}

@@ -1,0 +1,36 @@
+@import url('font-awesome.css');
+
+#container{
+	margin: 20px auto;
+	width: 80%;
+	position: relative;
+}
+
+#header {
+	margin: 2%;
+	text-align:left;
+	color:black;
+	/*font-size:1.5em;*/
+}
+
+#signup{
+	float: right;
+	width: 30%;
+	margin-right: 2%;
+	margin-top:8%;
+}
+
+
+footer {
+	width: 100%;
+	clear: both;
+	text-align: center;
+	position: fixed;
+	height: 30px;
+	width: 100%;
+	background-color: whitesmoke;
+	padding-bottom: 10px;
+	bottom: 0;
+	font-size: 0.8em;
+	line-height: 3em;
+}
